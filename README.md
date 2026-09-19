@@ -1,9 +1,10 @@
 ## Olá eu sou ***Edeno Luiz Scherer*** 👋
 
 
-- 🔭 Atualmente estou trabalhando como Desenvolvedor Full Stack
-- 🌱 Estou estudando Arquitetura de sistemas e sobre DevOps
-- 👨‍💻 Sou apaixonado por desenvolvimento web e gosto de aprender coisas novas.
+- 🔭 Backend Developer sênior | Tech Lead em teste
+- 🏦 12+ anos em sistemas bancários críticos, migrando um monólito multitenant para microsserviços
+- 🌱 Estudando Clean Architecture, Arquitetura Hexagonal e desenvolvendo minha liderança técnica
+- 🌐 Site pessoal: [edenoscherer.github.io](https://edenoscherer.github.io)
 ---
 ### 🔗 Conecte-se comigo
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/edeno-scherer/) 

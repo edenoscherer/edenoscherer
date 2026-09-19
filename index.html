@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edeno Scherer — Backend Developer &amp; Tech Lead</title>
+<meta name="description" content="Edeno Luiz Scherer · Backend Developer sênior e Tech Lead em formação. 12+ anos construindo sistemas bancários críticos com Node.js, TypeScript e AWS.">
+<meta name="theme-color" content="#0b0f14">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Edeno Scherer — Backend Developer & Tech Lead">
+<meta property="og:description" content="Backend Developer sênior e Tech Lead em formação. 12+ anos em sistemas bancários críticos, migrando monólito para microsserviços.">
+
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<div class="noise" aria-hidden="true"></div>
+
+<header class="nav-wrap">
+  <nav class="nav" id="nav">
+    <a href="#topo" class="nav-brand">
+      <span class="prompt">~/</span>eden<span class="cursor-dot">.</span>dev
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#dominio">Domínio</a></li>
+      <li><a href="#lideranca">Liderança</a></li>
+      <li><a href="#agora">Agora</a></li>
+      <li><a href="#contato" class="nav-cta">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+  <section class="hero" id="topo">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="dot"></span> disponível para novos desafios técnicos</p>
+        <h1>Edeno Luiz Scherer</h1>
+        <p class="role">Backend Developer <span class="sep">/</span> Tech Lead <span class="badge-inline">em teste</span></p>
+        <p class="lede">
+          Há mais de 12 anos construindo e mantendo sistemas críticos no setor bancário.
+          Hoje lidero a migração de um monólito multitenant para microsserviços — e a transição
+          de dev sênior para liderança técnica, com as mesmas duas mãos.
+        </p>
+        <div class="hero-actions">
+          <a href="#stack" class="btn btn-primary">Ver stack técnica</a>
+          <a href="#contato" class="btn btn-ghost">Falar comigo</a>
+        </div>
+      </div>
+
+      <div class="hero-terminal" aria-hidden="true">
+        <div class="term-bar">
+          <span class="term-dot red"></span>
+          <span class="term-dot yellow"></span>
+          <span class="term-dot green"></span>
+          <span class="term-title">eden@core-bank — zsh</span>
+        </div>
+        <div class="term-body" id="termBody">
+          <p><span class="term-prompt">$</span> <span class="term-cmd">whoami</span></p>
+          <p class="term-out" id="termOut1">backend developer, tech lead em teste</p>
+          <p><span class="term-prompt">$</span> <span class="term-cmd">cat stack.json | grep principal</span></p>
+          <p class="term-out" id="termOut2">"node" "typescript" "express" "typeorm" "aws"</p>
+          <p><span class="term-prompt">$</span> <span class="term-cmd" id="termCmd3">open contato.md</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre">
+    <div class="section-head">
+      <span class="section-tag">01 · sobre</span>
+      <h2>Sênior no código, aprendendo a liderar pessoas</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text">
+        Sou desenvolvedor backend sênior, atuando há mais de uma década no domínio bancário — sistemas
+        críticos, ambiente multitenant, onboarding e regras de negócio que não perdoam erro. No projeto
+        atual, faço parte da migração de um monólito multitenant para microsserviços, decisão que exige
+        tanto cuidado técnico quanto visão de arquitetura de longo prazo.
+      </p>
+      <p class="about-text">
+        Estou em teste para tech lead: além do código, conduzo ritos ágeis, faço refinamento com PMs,
+        dou feedback estruturado ao time e sirvo de ponte entre engenharia, produto e stakeholders.
+        Gosto de escrever código testável e bem separado — por isso estudo Clean Architecture e
+        Arquitetura Hexagonal na prática, não só na teoria.
+      </p>
+      <ul class="about-facts">
+        <li><strong>12+</strong> anos em desenvolvimento, foco em backend</li>
+        <li><strong>Bancário</strong> domínio atual — sistemas críticos e complexos</li>
+        <li><strong>Monólito → microsserviços</strong> migração em andamento</li>
+        <li><strong>Tech Lead</strong> em teste — código + liderança de time</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="stack">
+    <div class="section-head">
+      <span class="section-tag">02 · stack</span>
+      <h2>Ferramentas do dia a dia</h2>
+    </div>
+
+    <div class="stack-grid">
+      <article class="stack-card">
+        <h3>Backend</h3>
+        <ul class="chip-list">
+          <li>Node.js</li><li>TypeScript</li><li>Express</li>
+          <li>Inversify</li><li>TypeORM</li><li>Jest</li>
+        </ul>
+      </article>
+
+      <article class="stack-card">
+        <h3>Bancos de dados</h3>
+        <ul class="chip-list">
+          <li>PostgreSQL</li><li>MongoDB</li><li>DynamoDB</li><li>Redis</li>
+        </ul>
+      </article>
+
+      <article class="stack-card">
+        <h3>AWS &amp; Cloud</h3>
+        <ul class="chip-list">
+          <li>EC2</li><li>ECS</li><li>Lambda</li><li>S3</li>
+          <li>CloudFront</li><li>RDS</li><li>DynamoDB</li>
+          <li>SQS</li><li>SNS</li>
+        </ul>
+      </article>
+
+      <article class="stack-card">
+        <h3>DevOps &amp; ferramentas</h3>
+        <ul class="chip-list">
+          <li>Docker</li><li>GitHub Actions</li><li>Jenkins</li>
+          <li>Git / Git Flow</li>
+        </ul>
+      </article>
+
+      <article class="stack-card">
+        <h3>Frontend (experiência prévia)</h3>
+        <ul class="chip-list">
+          <li>React</li><li>React Native</li><li>Angular</li>
+          <li>AngularJS</li><li>Vue.js</li>
+        </ul>
+      </article>
+
+      <article class="stack-card">
+        <h3>Gestão &amp; comunicação</h3>
+        <ul class="chip-list">
+          <li>Jira</li><li>Slack</li><li>Scrum</li><li>Kanban</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="dominio">
+    <div class="section-head">
+      <span class="section-tag">03 · arquitetura &amp; domínio</span>
+      <h2>Sistemas que não podem falhar</h2>
+    </div>
+
+    <div class="domain-grid">
+      <article class="domain-card">
+        <span class="domain-icon">◧</span>
+        <h3>Monólito multitenant</h3>
+        <p>Projeto atual: sistema bancário multitenant em produção, com todo o cuidado que domínio financeiro exige.</p>
+      </article>
+      <article class="domain-card">
+        <span class="domain-icon">⇄</span>
+        <h3>Monólito → microsserviços</h3>
+        <p>Migração em andamento, equilibrando entrega contínua com decomposição segura do domínio.</p>
+      </article>
+      <article class="domain-card">
+        <span class="domain-icon">▤</span>
+        <h3>Clean Architecture</h3>
+        <p>Estudo ativo e aplicação prática: separação de responsabilidades e testabilidade em primeiro lugar.</p>
+      </article>
+      <article class="domain-card">
+        <span class="domain-icon">⬡</span>
+        <h3>Arquitetura Hexagonal</h3>
+        <p>Aprofundamento técnico em ports &amp; adapters para isolar regras de negócio de infraestrutura.</p>
+      </article>
+      <article class="domain-card">
+        <span class="domain-icon">⌁</span>
+        <h3>REST APIs seguras</h3>
+        <p>Segurança de API, análise de performance e observabilidade como parte do desenvolvimento, não um extra.</p>
+      </article>
+      <article class="domain-card">
+        <span class="domain-icon">↻</span>
+        <h3>Ciclo de release</h3>
+        <p>HML, GMUD, smoke test, deploy e rollback — gestão de release ponta a ponta em ambiente regulado.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="lideranca">
+    <div class="section-head">
+      <span class="section-tag">04 · liderança</span>
+      <h2>Tech lead em teste, liderança em construção</h2>
+    </div>
+
+    <div class="lead-grid">
+      <div class="lead-list">
+        <ul>
+          <li>Mentoria de devs juniores</li>
+          <li>Condução de ritos e cerimônias — Planning, Retro, Daily</li>
+          <li>Refinamento de requisitos com PMs externos</li>
+          <li>Tomada de decisão técnica</li>
+          <li>Gestão de backlog no Jira</li>
+          <li>Feedback estruturado — abordagem comportamental e co-construtiva</li>
+          <li>Interface com stakeholders e diretoria</li>
+          <li>Proxy de produto — cobertura de PO/PM quando ausente</li>
+        </ul>
+      </div>
+      <div class="lead-quote">
+        <blockquote>
+          "Estou construindo, na prática, a ponte entre escrever código e formar time — estruturando
+          processos, gestão de pessoas e a confiança técnica que sustenta as duas coisas ao mesmo tempo."
+        </blockquote>
+        <p class="lead-caption">Foco atual de desenvolvimento como Tech Lead</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="agora">
+    <div class="section-head">
+      <span class="section-tag">05 · em desenvolvimento</span>
+      <h2>No que estou trabalhando agora</h2>
+    </div>
+
+    <div class="progress-grid">
+      <article class="progress-card">
+        <div class="progress-top">
+          <h3>Clean Architecture</h3>
+          <span class="progress-tag">prática</span>
+        </div>
+        <p>Aplicação real em projetos do dia a dia, não só teoria.</p>
+      </article>
+      <article class="progress-card">
+        <div class="progress-top">
+          <h3>Arquitetura Hexagonal</h3>
+          <span class="progress-tag">aprofundamento</span>
+        </div>
+        <p>Ports &amp; adapters para desacoplar regra de negócio de infraestrutura.</p>
+      </article>
+      <article class="progress-card">
+        <div class="progress-top">
+          <h3>Liderança técnica</h3>
+          <span class="progress-tag">em teste</span>
+        </div>
+        <p>Estruturação de processos, gestão de pessoas e people management.</p>
+      </article>
+      <article class="progress-card">
+        <div class="progress-top">
+          <h3>Inglês</h3>
+          <span class="progress-tag">básico → fluente</span>
+        </div>
+        <p>Leitura técnica consolidada, evoluindo escrita e conversação.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-alt contact-section" id="contato">
+    <div class="section-head">
+      <span class="section-tag">06 · contato</span>
+      <h2>Vamos conversar</h2>
+    </div>
+    <p class="contact-lede">
+      Aberto a conversas sobre engenharia backend, arquitetura de sistemas bancários e liderança técnica.
+    </p>
+    <div class="contact-links">
+      <a class="contact-card" href="https://linkedin.com/in/edeno-scherer/" target="_blank" rel="noopener noreferrer">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">in/edeno-scherer</span>
+      </a>
+      <a class="contact-card" href="https://github.com/edenoscherer" target="_blank" rel="noopener noreferrer">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">@edenoscherer</span>
+      </a>
+      <a class="contact-card" href="mailto:edenoscherer@gmail.com">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">edenoscherer@gmail.com</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Edeno Luiz Scherer. Construído com HTML, CSS e JS puro.</p>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
