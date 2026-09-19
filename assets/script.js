@@ -4,18 +4,36 @@ document.getElementById('year').textContent = new Date().getFullYear();
 // Menu mobile
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
+const mobileNavQuery = window.matchMedia('(max-width: 880px)');
+
+// Quando o menu está fechado em telas estreitas, os links ficam clipados via
+// CSS (max-height: 0) mas continuariam focáveis por teclado/leitor de tela
+// sem isto — inert os remove do tab order enquanto ocultos.
+function syncNavInert() {
+  const isOpen = navLinks.classList.contains('open');
+  if (mobileNavQuery.matches && !isOpen) {
+    navLinks.setAttribute('inert', '');
+  } else {
+    navLinks.removeAttribute('inert');
+  }
+}
 
 navToggle.addEventListener('click', () => {
   const isOpen = navLinks.classList.toggle('open');
   navToggle.setAttribute('aria-expanded', String(isOpen));
+  syncNavInert();
 });
 
 navLinks.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('open');
     navToggle.setAttribute('aria-expanded', 'false');
+    syncNavInert();
   });
 });
+
+mobileNavQuery.addEventListener('change', syncNavInert);
+syncNavInert();
 
 // Efeito de "digitação" no terminal do hero
 function typeInto(el, text, speed = 28) {
